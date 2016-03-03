@@ -1,0 +1,3 @@
+printf "Enter application to remove: "
+read -r removeApplication
+sudo rm -Rd /Applications/$removeApplication.app
