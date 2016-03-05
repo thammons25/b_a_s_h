@@ -10,8 +10,8 @@ until [ "$allPrograms" = "0" ]; do
         printf "Enter Choice Here: "
         read -r allPrograms
         case $allPrograms in
-                1 ) /Users/thomashammons/Desktop/delete ;;
-                2 ) /Users/thomashammons/Desktop/betterPop ;;
+                1 ) ./delete ;;
+                2 ) ./betterPop ;;
                 # 3 ) /Users/thomashammons/Desktop/badday ;;
                 3 ) ./badday ;;
                 0 ) exit ;;
