@@ -12,7 +12,6 @@ until [ "$allPrograms" = "0" ]; do
         case $allPrograms in
                 1 ) ./delete ;;
                 2 ) ./betterPop ;;
-                # 3 ) /Users/thomashammons/Desktop/badday ;;
                 3 ) ./badday ;;
                 0 ) exit ;;
         esac
