@@ -11,7 +11,7 @@ case $programChoice in
         4 ) open /Applications/Notes.app ;;
         5 ) open /Applications/Spotify.app ;;
         6 ) open /Applications/Xcode.app  ;;
-        7 ) open /Users/thomashammons/Desktop/KeyboardViewer.app ;;
-        8 ) /Users/thomashammons/Desktop/microsoftOffice ;;
+        7 ) open ./KeyboardViewer.app ;;
+        8 ) ./microsoftOffice ;;
         9 ) exit ;;
 esac
